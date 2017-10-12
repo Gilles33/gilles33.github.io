@@ -114,12 +114,12 @@ section {
 }
 
 #fellows, #hunters, #join {
-    background: repeat url('../images/_bg_light.png');
+    background: repeat url('../images/bg_light.png');
     padding-bottom: 70px;
 }
 
 #rewards, #ring, #contact {
-    background: repeat url('../images/_bg_dark.png');
+    background: repeat url('../images/bg_dark.png');
     padding-bottom: 70px;
 }
 
@@ -272,7 +272,7 @@ span {
 /*Hunters*/
 #hunters {
     padding-bottom: 70px;
-    background: repeat url('../images/_bg_light.png');
+    background: repeat url('../images/bg_light.png');
 }
 
 #hunters > h2 {
