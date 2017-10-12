@@ -1,0 +1,447 @@
+/*police */
+@font-face {
+    font-family: 'aniron';
+    src: url('../font/title/anirm___.ttf');
+}
+
+@font-face {
+    font-family: 'aniron';
+    src: url('../font/title/anirb___.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'partybusiness' ;
+    src: url('../font/text/partybusiness.ttf');
+}
+
+@font-face {
+    font-family: 'tengwarc';
+    src: url('../font/logo/Tengwarc.ttf');
+}
+
+h1, h2, h3, li, th, td, a, input {
+    font-family: 'aniron';
+
+}
+
+p, h4 {
+    font-family: 'partybusiness';
+    font-size: 1.8em;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+hr {
+    margin-top: -4px;
+    margin-bottom: 0;
+    width: 50%;
+    border: 2px solid darkorange;
+    transform: skew(-30deg);
+}
+
+.decoration {
+    color: darkorange;
+}
+
+/*navbar*/
+.navbar {
+    background-color: darkorange;
+}
+
+.collapse {
+    margin-right: 30px;
+}
+
+.navbar-header > a > img {
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 25px;
+}
+
+.navbar-nav > li {
+    line-height: 0;
+    max-width: 100px;
+    text-align: center;
+}
+
+.separator {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    width: 1px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.navbar-collapse > .nav > li > a:link, .navbar-collapse > .nav > li > a:focus, .navbar-collapse > .nav > li > a:visited {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FFFFFF;
+    text-decoration: underline #FFFFFF;
+}
+
+.navbar-collapse > .nav > li > a {
+    color: black;
+}
+
+.navbar-nav {
+    background-color: darkorange;
+}
+
+/*carousel*/
+.carousel-caption > h1 {
+    font-family: 'partybusiness';
+    font-size: 5vh;
+}
+
+.carousel-caption > p {
+    font-size: 3vh;
+}
+
+.carousel-caption {
+    font-size: 2em;
+    text-align: left;
+    padding-bottom: 150px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+#fellows, #hunters, #join {
+    background: repeat url('../images/_bg_light.png');
+    padding-bottom: 70px;
+}
+
+#rewards, #ring, #contact {
+    background: repeat url('../images/_bg_dark.png');
+    padding-bottom: 70px;
+}
+
+#rewards > h2, #ring > h2, #contact > h2 {
+    color: #FFFFFF;
+}
+
+#rewards > p, #ring > p, #contact > p {
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+/* Fellows*/
+/*nav*/
+.nav-pills {
+    margin-top: 50px;
+}
+
+.nav-pills > li {
+    font-size: 18px;
+}
+
+.nav-pills {
+    color: black;
+}
+
+.nav-tabs.nav-justified > li > a {
+    border: hidden;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    color: darkorange;
+    background-color: transparent;
+    text-decoration: underline;
+    border: hidden;
+}
+
+.activeDecoration {
+    visibility: hidden;
+}
+
+.active > a > .activeDecoration {
+    visibility: visible;
+}
+
+.nav-tabs {
+    border: hidden;
+}
+
+/*description*/
+span {
+    color: orange;
+}
+
+.foeValue > img {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+    height: 340px;
+}
+
+.foeValue {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foeDescription {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.foeDescription > p {
+    width: 240px;
+    font-size: xx-large;
+    padding: 0;
+    transform: translate(0, -100%);
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+
+}
+
+.foeDescription > h4 {
+    font-size: 4em;
+    color: white;
+}
+
+.foeDescription + .caption > p {
+    color: gray;
+}
+
+.thumbnail {
+    background-color: black;
+    overflow: hidden;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.foeValue > img:hover {
+    z-index: 2;
+    opacity: 1;
+}
+
+.dead > h4 {
+    text-decoration: darkorange line-through;
+}
+
+.dead > p {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+/* Rewards */
+#rewards img {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+#rewards input {
+    margin-top: 50px;
+    transform: skew(-20deg);
+    background-color: #FFFFFF;
+    color: darkorange;
+    border: hidden;
+    border-radius: 0;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#rewards p {
+    margin: 50px;
+}
+
+/*Hunters*/
+#hunters {
+    padding-bottom: 70px;
+    background: repeat url('../images/_bg_light.png');
+}
+
+#hunters > h2 {
+    margin-bottom: 30px;
+}
+
+#hunters a {
+    font-family: partybusiness;
+    color: black;
+    text-decoration: underline;
+
+}
+
+#hunters h4 {
+    font-size: 40px;
+    color: darkorange;
+}
+
+#hunters p {
+    font-size: 20px;
+}
+
+#hunters button {
+    font-family: partybusiness;
+    font-size: 25px;
+    transform: skew(-20deg);
+    background-color: black;
+    color: darkorange;
+    border: hidden;
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+/*Ring*/
+.panel-default {
+    border: hidden;
+    margin: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.panel-default > .panel-heading {
+    background-color: darkorange;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.panel-body {
+    border-bottom: 5px solid darkorange;
+}
+
+thead {
+    font-size: 20px;
+}
+
+blockquote {
+    margin-top: 50px;
+    font-family: partybusiness;
+    font-size: 2em;
+}
+
+blockquote > p {
+    font-size: 1em;
+}
+
+/*Join*/
+#join h2 {
+    margin-bottom: 40px;
+}
+
+#army, #weNeedYou {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.buttonJoin {
+    margin-top: 30px;
+}
+
+#join input {
+    transform: skew(-20deg);
+    background-color: black;
+    color: darkorange;
+    border: hidden;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.inputButton {
+    margin-top: 35px;
+}
+
+.inputButton > h3 {
+    color: darkorange;
+}
+
+/*form*/
+.form-control {
+    font-size: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form > p {
+    margin: 15px;
+}
+
+#contact img {
+    margin-top: 30px;
+}
+
+/*footer*/
+#footerNav {
+    background-color: darkorange;
+    color: #FFFFFF;
+}
+
+#footerNav a {
+    color: #FFFFFF;
+}
+
+#footerNav li {
+    margin: 20px;
+}
+
+#footerNav .nav > li > a {
+    padding: 0;
+    margin-bottom: -20px;
+}
+
+#footerNav img {
+    height: 20px;
+    margin-top: 30px;
+}
+
+@media all and (max-device-width: 1024px) {
+
+    h2 {
+        font-size: 3vh;
+        text-align: center;
+    }
+
+    #rewards p, #join p {
+        font-size: 3.5vh;
+        text-align: justify;
+    }
+
+    #ring p {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    .carousel-caption {
+        padding-bottom: 0;
+    }
+
+    .carousel-caption > h1 {
+        font-size: 3vh;
+    }
+
+    .carousel-caption > p {
+        font-size: 2vh;
+    }
+}
+
